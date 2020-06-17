@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  simutrans:
+    build: .
+    volumes:
+      - $PWD/save:/simutrans/save
+      - $PWD/maps:/simutrans/maps
+      - $PWD/config:/simutrans/config
+    ports:
+      - "13353:13353"
