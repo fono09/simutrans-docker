@@ -8,3 +8,5 @@ services:
       - $PWD/config:/simutrans/config
     ports:
       - "13353:13353"
+    command: ./simutrans -server -use-workdir -singleuser -lang ja -objects pak -addons -nosound -nomidi -log 1 -load server-13355.sve
+    restart: always
