@@ -247,7 +247,7 @@ player_color[1] = 1,4
 player_finance_display_account = 1
 
 # remove companies without convoys after x month (0=off, 6=default)
-remove_dummy_player_months = 6
+remove_dummy_player_months = 0
 
 # remove password of abandoned companies (without any building activity) after x month (0=off default)
 unprotect_abandoned_player_months = 0
@@ -265,19 +265,19 @@ unprotect_abandoned_player_months = 0
 #tile_height = 16
 
 # (=1) drive on the left side of the road
-drive_left = 0
+drive_left = 1
 
 # (=1) signals on the left side
-signals_on_left = 0
+signals_on_left = 1
 
 # Do you want to have random pedestrians in town? Look nice but needs some
 # CPU time to process them. (1=on, 0=off)
 # Impact on frame time: ~10% (16 cities on a new standard map)
-random_pedestrians = 1
+random_pedestrians = 0
 
 # Do you want to have random pedestrians after pax are reaching this
 # destination? May generate quite a lot. (1=on, 0=off)
-stop_pedestrians = 1
+stop_pedestrians = 0
 
 # there are some other grounds (like rocky, lakes etc. )
 # which could be added to the map (default 10)
@@ -304,7 +304,7 @@ default_citycar_life = 36
 
 # Show info on trees?
 # (1=on, 0=off)
-tree_info = 1
+tree_info = 0
 
 # Show info also on bare ground?
 # (1=on, 0=off)
@@ -698,10 +698,10 @@ fast_forward = 50
 #server_port = 13353
 
 # Name of server in server listing
-#server_name = My Simutrans Server
+server_name = fono
 
 # Additional information about your server (for display on the list server)
-#server_comments = Comments about my server
+server_comments = FONOFONO
 
 # Email address of server maintainer (for display on the list server)
 #server_email = maintainer@your.server
@@ -713,7 +713,7 @@ fast_forward = 50
 #server_infurl = http://your.domain/server-info.html
 
 # Pause server when no clients are connected
-#pause_server_no_clients = 1
+pause_server_no_clients = 1
 
 # Server saves savegame when being killed (default=0 off)
 #server_save_game_on_quit = 0
