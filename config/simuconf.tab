@@ -265,10 +265,10 @@ unprotect_abandoned_player_months = 0
 #tile_height = 16
 
 # (=1) drive on the left side of the road
-drive_left = 0
+drive_left = 1
 
 # (=1) signals on the left side
-signals_on_left = 0
+signals_on_left = 1
 
 # Do you want to have random pedestrians in town? Look nice but needs some
 # CPU time to process them. (1=on, 0=off)
@@ -698,7 +698,7 @@ fast_forward = 50
 #server_port = 13353
 
 # Name of server in server listing
-#server_name = My Simutrans Server
+server_name = fono server
 
 # Additional information about your server (for display on the list server)
 #server_comments = Comments about my server
@@ -713,7 +713,7 @@ fast_forward = 50
 #server_infurl = http://your.domain/server-info.html
 
 # Pause server when no clients are connected
-#pause_server_no_clients = 1
+pause_server_no_clients = 1
 
 # Server saves savegame when being killed (default=0 off)
 #server_save_game_on_quit = 0
